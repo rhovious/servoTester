@@ -1,9 +1,6 @@
-# servoTester
-
-
 # Servo Tester
 
-A 
+This project serves the purpose of building a small servo control device. This device allows connection of a standard 180* rotation servo. The angle of the servo is adjusted using the potentometer. The active angle of the servo is displayed on the connected screen
 
 
 ### Required Libraries
@@ -11,6 +8,7 @@ A
 The following libraries are required. Install through Arduino library manager.
 
 * servo
+* [U8g2lib](https://github.com/olikraus/u8g2 "U8g2lib")
 
 ### Installation
 
@@ -21,4 +19,4 @@ The following libraries are required. Install through Arduino library manager.
 
 ## Additional Documentation and Acknowledgments
 
-* Based (loosly) on the Adafruit Magtag Christma countdown [Here](https://learn.adafruit.com/magtag-daily-christmas-countdown "Adafruit Christas Countdown")
+* Based on the oled-gauge project by jumejume1 [Here](https://github.com/makertut/oled-gauge/blob/master/code1.ino "oled-gauge")
